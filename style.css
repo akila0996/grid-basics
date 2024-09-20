@@ -1,0 +1,39 @@
+h1{
+    text-align: center;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(6,2fr);
+    grid-template-rows: repeat(5,60px);
+    gap: 10px;
+    background-color: #1f1e31;
+    padding: 25px;
+    height: 400px;
+    border: solid 2px #c0b0b0;
+}
+.item{
+    background-color: #2f2740;
+    border: solid 2px white;
+    color: aliceblue;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 5px;
+}
+#item1{
+    grid-column: span 3;
+    grid-row: span 2;
+}
+#item3{
+    grid-row: span 2; 
+}
+#item4{
+    grid-row: span 3; 
+}
+#item8{
+    grid-row: span 2; 
+    grid-column: span 3;
+}
+#item9{
+    grid-row: span 2; 
+    grid-column: span 2;
+}
